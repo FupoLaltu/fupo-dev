@@ -22,4 +22,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message'); // loading view // yes done with working code 100 %
 	}
+
+	public function laltu()
+	{
+		$this->load->view('welcome_message11'); // loading view 
+	}
 }

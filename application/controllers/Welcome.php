@@ -33,4 +33,10 @@ class Welcome extends CI_Controller {
 		$data = [];
 		$this->load->view('welcome_message22', $data); // loading view  // yes done all changes
 	}
+
+	public function xyz()
+	{
+		$data = [];
+		$this->load->view('welcome_message33', $data); // loading view  // yes done all changes
+	}
 }

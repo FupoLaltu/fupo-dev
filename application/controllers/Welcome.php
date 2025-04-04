@@ -30,6 +30,6 @@ class Welcome extends CI_Controller {
 
 	public function venky()
 	{
-		$this->load->view('welcome_message22'); // loading view 
+		$this->load->view('welcome_message22'); // loading view  // yes done all changes
 	}
 }

@@ -27,4 +27,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message11'); // loading view 
 	}
+
+	public function venky()
+	{
+		$this->load->view('welcome_message22'); // loading view 
+	}
 }

@@ -18,8 +18,7 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/userguide3/general/urls.html
 	 */
-	public function index()
-	{
+	public function index() {
 		$this->load->view('welcome_message'); // loading view // yes done with working code 100 %
 	}
 
@@ -28,9 +27,8 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message11'); // loading view 
 	}
 
-	public function venky()
-	{
+	public function venky() {
 		$data = [];
-		$this->load->view('welcome_message22', $data); // loading view  // yes done all changes
+		$this->load->view('welcome_message22', $data); // loading view  // yes done all changes / Yes array passing done
 	}
 }
